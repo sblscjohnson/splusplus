@@ -7,14 +7,14 @@ a:visited {
   color: unset;
 }
 
-a:hover {
+/* a:hover {
   background-color: white;
   color: black;
-}
+} */
 
-a:active {
+/* a:active {
   color: none;
-}
+} */
 
 p {
   color: #20c20e;
@@ -43,6 +43,11 @@ nav {
   z-index: 10;
 }
 
+.thingy {
+  background-color: red;
+  color: blue;
+}
+
 .navItems {
   display: flex;
   flex-direction: row;
@@ -59,6 +64,7 @@ nav {
   left: 5%;
 }
 
+
 .singleNav {
   margin-right: 5vw;
   text-align: center;
@@ -71,26 +77,29 @@ nav {
 
 .home {
   display: flex;
-  background-color: rgb(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
 }
 
 .homebox {
+  background-image: url('resources/terminal.png');
+  background-repeat: no-repeat;
+  background-position: center;
   width: 80%;
-  height: 10%;
+  height: 80%;
   position: relative;
-  left: 10%;
-  top: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
   font-size: 30px;
   /* text-align: center; */
 }
 
 .ima {
   position: relative;
-  top: 100px;
   text-align: center;
-  animation: 
-    typing 4.5s steps(40, end),
-    blink-caret 1.5s;
+  
 }
 
 .about {
