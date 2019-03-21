@@ -8,16 +8,20 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" media="screen" href="resources/reset.css">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+
 </head>
 <body>
   <header>
     <nav>
       <div>
-        <a href=#top><img class='logo' src='resources/techyspencelogog.png' /></a>
+        <a href=#top><img class='logo' src='resources/spluspluslogo.png' /></a>
         <ul class='navItems'>
-          <a href=#about><li class='singleNav'>About Me</li></a>
-          <a href=#projects><li class='singleNav'>Projects</li></a>
-          <a href=#contact><li class='singleNav'>Contact</li></a>
+          <a href=#home><li class='singleNav'>HOME</li></a>
+          <a href=#about><li class='singleNav'>ABOUT ME</li></a>
+          <a href=#skills><li class='singleNav'>SKILLS</li></a>
+          <a href=projects><li class='singleNav'>PROJECTS</li></a>
+          <a href=contact><li class='singleNav'>CONTACT</li></a>
         </ul>
       </div>
     </nav>
@@ -26,52 +30,70 @@
     <a name='home'><div class='page home'>
       <div class='homebox'>
         <div class='ima'>
-          <p>I am a</p>
-          <!-- <p id='typed-strings'>stuff in here</p> -->
-          <span id='typed'></span>
-          <div id='typed-strings'>
-            <p>Web Developer</p>
-            <p>Technologist</p>
-            <p>PC Enthusiast</p>
+          <h1>SPENCER JOHNSON</h1>
+            <div class='imaps'>
+              <p>Web Developer</p>
+              <p>Technologist</p>
+              <p>PC Enthusiast</p>
+            </div>
+            <p class='intrigued'><a href='#about'>INTRIGUED?</a></p>
           </div>
-          <script>
-          var typed = new Typed('#typed', {
-            stringsElement: '#typed-strings'
-          });
-          </script>
         </div>
       </div>
-    </div></a>
+    </a>
     
-    <a name='about'><div class='page about'>
-      <div class='aboutpage'>
-        <img class='mepicture' src="./resources/idk.jpg" alt='me' />
-        <div class='aboutme'>
-          <!-- <h1>Spence Johnson</h1> -->
-          <p>Hello there! My name is Spencer. I am a web developer from Columbus, Ohio. I've always had an knack for making, breaking, and fixing things...mostly breaking things to be honest. I didn't come to technology until my mid-teenage years, but I got SUPER into it. This led me to attend DevMountain's 13-week Web Development Immersive Bootcamp in Lehi, Utah. There I learned HTML, CSS, Vanilla JavaScript, React, Node, and SQL.</p>
-          <p>GitHub: github.com/sblscjohnson</p>
-          <p>LinkedIn: linkedin.com/in/techyspence</p>
+    <a name='about'></a>
+      <div class='page about'>
+        <div class='aboutpage'>
+          <h1>Hi there! Glad you could make it!</h1>
+          <div class='alignedme'>
+          <img class='mepicture' src="./resources/rsz_1meesa.jpg" alt='me' />
+          <div class='aboutme'>
+            <p>I’m Spencer, and I love all things tech, from building computers to developing web applications. I was raised in Cincinnati, Ohio, but Columbus is home to me. I got into technology in my late teenage years. Despite not having a strong STEM background in school (I was gonna be a music major…cut me some slack), the tech field always lured to me, especially after I built my own computer. This led me to attend a coding bootcamp, DevMountain, where I took a 13-week, immersive course in web development. There I learned HTML, CSS, Full-Stack JavaScript, React, and SQL, as well as version control with Git, web hosting with Digital Ocean, and testing. I’d love to be a part of the thriving tech scene in the Columbus area!</p>
+          </div>
         </div>
+        <h6 class='clickhere'>CLICK <a class='bluelink' href='projects'>HERE</a> TO SEE MY WORK AND <a class='bluelink' href='contact'>HERE</a> TO CONTACT ME</h6>
+      <hr />
+      <a name='skills'></a>
+        <div class='skills'>
+          <h1>My Skills</h1>
+          <div class='logos'>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/react.png' />
+              <p>React</p>
+            </div>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/redux.svg' />
+              <p>Redux</p>
+            </div>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/node.png' />
+              <p>Node.js</p>
+            </div>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/postgres.png' />
+              <p>PostgreSQL</p>
+            </div>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/html.png' />
+              <p>HTML</p>
+            </div>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/css.png' />
+              <p>CSS</p>
+            </div>
+            <div class='themlogos'>
+              <img class='logothing' src='./resources/code_logos/js.png' />
+              <p>JavaScript</p>
+            </div>
+          </div>
+        </div>
+        <h6 class='clickhere'><a class='bluelink' href='#home'>BACK TO TOP</a></h6>
       </div>
-    </div></a>
-    
-    <a name='projects'><div class='page about'>
-      <img src="./resources/idk.jpg" />
-      <h1>Projects</h1>
-    </div></a>
-
-    <a name='contact'><div class='page contact'>
-      <img src="./resources/idk.jpg" />
-      <div>
-        <h1>Contact</h1>
-        <ul>
-          <li>Email: johnson.s.8253@gmail.com</li>
-          <li>GitHub: github.com/sblscjohnson</li>
-          <li>LinkedIn: linkedin.com/in/johnson8253</li>
-        </ul>
-      </div>
-    </div></a>
+    </div>
   </main>
+  <footer>
+  </footer>
 </body>
-<script src="typed.js"></script>
+<script type="text/javascript" src="./main.js"></script>
 </html>
