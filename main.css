@@ -35,7 +35,6 @@ h1 {
   letter-spacing: 5px;
 }
 
-
 nav {
   font-family: 'Ubuntu', sans-serif;
   height: 10vh;
@@ -328,4 +327,99 @@ footer {
 
 .profooter {
   height: 200px;
+}
+
+
+@media (max-width: 1200px) {
+  nav {
+    width: 100vw;
+  }
+  .logo {
+    /* position: relative; */
+    left: 0;
+  }
+  .singleNav {
+    font-size: 20px;
+    /* padding: ; */
+  }
+  .navItems {
+    text-align: right;
+    width: 80vw;
+    flex-wrap: wrap;
+    position: relative;
+    left: 10%;
+  }
+  .intrigued {
+    width: 50%;
+  }
+  .aboutpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .alignedme {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .aboutpage > h1 {
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .clickhere {
+    font-size: 18px;
+  }
+
+  .mepicture {
+    width: 80%;
+    height: 80%;
+  }
+  .aboutme {
+    /* text-align: justify; */
+    width: 80%;
+  }
+  .aboutme > p {
+    font-size: 18px;
+  }
+  .contact {
+    height: 85vh;
+  }
+
+  footer {
+    height: 10vh;
+  }
+
+  .innercontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .innercontact > img {
+    left: 0;
+  }
+  .skills {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logos {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+  }
+  .themlogos {
+    margin: 10px;
+  }
+  .themlogos > p {
+    margin-top: 5%;
+  }
 }
