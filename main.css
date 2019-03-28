@@ -197,6 +197,10 @@ nav {
   margin-top: 50px;
 }
 
+/* .scroll {
+  scroll-behavior: smooth;
+} */
+
 .themlogos {
   text-align: center;
   font-size: 22px;
