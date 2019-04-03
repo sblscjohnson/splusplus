@@ -17,6 +17,7 @@ a:visited {
   color: rgb(44, 44, 44);
 } */
 
+
 body {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./resources/85817.jpg');
   background-position: center;
@@ -315,11 +316,11 @@ footer {
   font-family: 'Crimson Text', serif;
 }
 
-.carousel {
+.carousel, .carousel2 {
   padding: 20px;
 }
 
-.mySlides {
+.mySlides,.mySlides2 {
   max-width: 80vw;
   max-height: 60vh;
   margin: auto;
