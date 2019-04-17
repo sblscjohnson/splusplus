@@ -335,7 +335,13 @@ footer {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
+  .am {
+    display: none;
+  }
+  .skl {
+    display: none;
+  }
   nav {
     width: 100vw;
   }
@@ -344,15 +350,17 @@ footer {
     left: 0;
   }
   .singleNav {
-    font-size: 20px;
-    /* padding: ; */
+    font-size: 22px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
   }
   .navItems {
-    text-align: right;
     width: 80vw;
+    margin: auto;
     flex-wrap: wrap;
     position: relative;
-    left: 10%;
+    top: 20%;
   }
   .intrigued {
     width: 50%;
